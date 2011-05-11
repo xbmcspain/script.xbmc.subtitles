@@ -1,3 +1,6 @@
+2.4.8
+- added: Subscenter.org service, thanks Ori Varon
+
 2.4.7
 - added: New services PT-SUBS.net and OmniSubs.net, thx to highlandr
 - removed: Sratim service until API is sorted out
