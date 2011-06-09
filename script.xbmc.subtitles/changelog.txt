@@ -1,3 +1,9 @@
+2.5.3
+- fixed: ordering of OpenSubtitles results, thx to cidus
+
+2.5.2
+- fixed: broken settings file
+
 2.5.1
 - added: extra regex for "sXXepXX"
 - added: New Service Legendas-Zone.org, thx HiGhLaNdR
