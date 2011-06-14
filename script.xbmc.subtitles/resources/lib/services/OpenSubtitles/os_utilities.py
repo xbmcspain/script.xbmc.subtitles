@@ -32,7 +32,7 @@ class OSDBServer:
 
 ###-------------------------- Sort Subtitles  -------------################
 
-    def sortsubtitles(self, subtitle, hashed, url_base):
+    def sortsubtitles(self, subtitle, hashed):
 
         filename = movie = lang_name = subtitle_id = lang_id = link = ""
         flag_image = "-.gif"
@@ -59,7 +59,6 @@ class OSDBServer:
                 lang_index+=1   
         if subtitle.getElementsByTagName("download")[0].firstChild:
             link = subtitle.getElementsByTagName("download")[0].firstChild.data
-            link = url_base + link
         if subtitle.getElementsByTagName("subrating")[0].firstChild:
             rating = subtitle.getElementsByTagName("subrating")[0].firstChild.data
         
@@ -103,9 +102,8 @@ class OSDBServer:
                 xmldoc = minidom.parseString(result)
                 subtitles_alt = xmldoc.getElementsByTagName("subtitle")
                 if subtitles_alt:
-                    url_base = xmldoc.childNodes[0].childNodes[1].firstChild.data
                     for subtitle in subtitles_alt:
-                       self.sortsubtitles(subtitle, True, url_base)           
+                       self.sortsubtitles(subtitle, True)           
 
             if (not hash_search) or (not self.subtitles_hash_list):        
               search_url = BASE_URL_NAME % (toOpenSubtitlesId(lang1),srch_string,)
@@ -114,7 +112,7 @@ class OSDBServer:
                   msg = _( 755 )
               else:
                   xmldoc = minidom.parseString(result)
-                  subtitles_alt = xmldoc.getElementsByTagName("subtitle")
+                  subtitles_name = xmldoc.getElementsByTagName("subtitle")
                     
                   if search_url1 != None :
                       result = self.get_results( search_url1 )
@@ -122,7 +120,7 @@ class OSDBServer:
                           msg = _( 755 )
                       else:
                           xmldoc = minidom.parseString(result)
-                          subtitles_alt += xmldoc.getElementsByTagName("subtitle")
+                          subtitles_name += xmldoc.getElementsByTagName("subtitle")
                     
                   if search_url2 != None :
                       result = self.get_results( search_url2 )
@@ -130,12 +128,11 @@ class OSDBServer:
                           msg = _( 755 )
                       else:
                           xmldoc = minidom.parseString(result)
-                          subtitles_alt += xmldoc.getElementsByTagName("subtitle")    
+                          subtitles_name += xmldoc.getElementsByTagName("subtitle")    
                     
-            if subtitles_alt:
-                url_base = xmldoc.childNodes[0].childNodes[1].firstChild.data
-                for subtitle in subtitles_alt:
-                   self.sortsubtitles(subtitle, False, url_base)
+            if subtitles_name:
+                for subtitle in subtitles_name:
+                   self.sortsubtitles(subtitle, False)
                         
         except:
             pass
