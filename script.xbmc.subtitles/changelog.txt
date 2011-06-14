@@ -1,5 +1,6 @@
 2.5.3
 - fixed: ordering of OpenSubtitles results, thx to cidus
+- fixed: Undertexter, it will now find Swedish subs
 
 2.5.2
 - fixed: broken settings file
