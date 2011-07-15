@@ -1,3 +1,6 @@
+2.5.6
+- handle ACTION_NAV_BACK top close the script
+
 2.5.5
 - fix: titulky.com service
 
