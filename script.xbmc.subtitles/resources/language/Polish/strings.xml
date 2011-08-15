@@ -11,9 +11,9 @@
     <string id="652">Napisy ściągnięte i wypakowane</string>
     <string id="653">Błąd połączenia</string>
     <string id="654">Błąd przy wypakowywaniu napisów</string>
-    <string id="655">Local subtitle available</string>
-    <string id="656">Service did not respond within the time out limit</string>    
-    <string id="657">No Subtitles Found!</string>
+    <string id="655">Lokalne napisy dostępne</string>
+    <string id="656">Serwis nie odpowiedział w określonym czasie</string>    
+    <string id="657">Nie znaleziono napisów!</string>
     <string id="744">napisów znalezionych dla</string>
     <string id="747">Search Using Parent Folder</string>
     <string id="748">You can't save subtitle to selected destination</string>
@@ -34,7 +34,7 @@
     <string id="30103">Wybierz serwis</string>
     <string id="30104">- Podnapisi.net nazwa urzytkownika</string>
     <string id="30105">- Podnapisi.net hasło</string>
-    <string id="30106">Advanced Options</string>
+    <string id="30106">Opcje zaawansowane</string>
     <string id="30107">Subtitle Download Folder Same As Movie</string>
     <string id="30108">- Set Custom Subtitle Download Path</string>
     <string id="30110">Wprowadź szukaną nazwę </string>
