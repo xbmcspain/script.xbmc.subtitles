@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 
-# Attention, Frankenstein work patched from other pieces of code.
-# Ugly and may not work at all. Feel free to improve, change anything.
+# Attention this is a Frankenstein Monster. Patched from other pieces of code,
+# ugly and may not work at all. Feel free to improve, change anything.
 # I do not know how to code, especially in Python, at all. 
 # Credits to amet, Guilherme Jardim, and many more.
 # mrto
