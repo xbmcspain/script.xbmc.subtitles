@@ -15,16 +15,16 @@
     <string id="656">Serwis nie odpowiedział w określonym czasie</string>    
     <string id="657">Nie znaleziono napisów!</string>
     <string id="744">napisów znalezionych dla</string>
-    <string id="747">Search Using Parent Folder</string>
-    <string id="748">You can't save subtitle to selected destination</string>
+    <string id="747">Szukaj używając nazwy folderu nadrzędnego</string>
+    <string id="748">nie można zapisać napisów w podanym katalogu</string>
     <string id="750">Would you like to activate this subtitle temporarily?</string>
-    <string id="751">Enter Movie Name (year)</string>
-    <string id="755">Server is overloaded, please try again later</string>
-    <string id="756">Login failed. Please verify your settings at the addon Configuration</string>
-    <string id="757">Server requires you to rewrite code from image</string>
+    <string id="751">Wprowadź tytuł filmu (rok)</string>
+    <string id="755">Serwer przeciążony, spróbuj później</string>
+    <string id="756">Niezalogowano. Sprawdź ustawienia w konfikuracji wtyczki</string>
+    <string id="757">Serwer wymaga przepisania kodu z obrazka</string>
     <string id="758">Please take look at notification area</string> 
     <string id="759">Enter code of image in notification area</string>
-    <string id="760">Available Services</string>   
+    <string id="760">Dostępne serwisy</string>   
         
   <!-- Script Settings -->
    
@@ -35,21 +35,21 @@
     <string id="30104">- Podnapisi.net nazwa urzytkownika</string>
     <string id="30105">- Podnapisi.net hasło</string>
     <string id="30106">Opcje zaawansowane</string>
-    <string id="30107">Subtitle Download Folder Same As Movie</string>
-    <string id="30108">- Set Custom Subtitle Download Path</string>
-    <string id="30110">Wprowadź szukaną nazwę </string>
-    <string id="30111">Third Language</string>  
-    <string id="30113">Select Default Movie Service</string>
-    <string id="30114">Select Default TV Show Service</string>
-    <string id="30118">Display file name in results page</string>
-    <string id="30119">Search Using Parent Folder</string>
-    <string id="30121">Add Language To Filename </string>
-    <string id="30122">Set Default Timeout</string>
-    <string id="30123">- Legendas.TV Username</string>
-    <string id="30124">- Legendas.TV Password</string>
-    <string id="30125">Disable hash search</string>
-    <string id="30126">- Itasa Username</string>
-    <string id="30127">- Itasa Password</string>
+    <string id="30107">Pobierz napisy do katalogu z filmem</string>
+    <string id="30108">- katalog dla pobieranych napisów</string>
+    <string id="30110">Wprowadź szukany tytuł </string>
+    <string id="30111">Trzeci język</string>  
+    <string id="30113">Domyślny serwis dla filmów</string>
+    <string id="30114">Domyślny serwis dla seriali</string>
+    <string id="30118">Wyświetl nazwę pliku na stronie z wynikami</string>
+    <string id="30119">Szukaj używając folderu nadrzędnego</string>
+    <string id="30121">Dodaj symbol języka do pliku napisów</string>
+    <string id="30122">Domyślny timeout</string>
+    <string id="30123">- Legendas.TV nazwa urzytkownika</string>
+    <string id="30124">- Legendas.TV hasło</string>
+    <string id="30125">Wyłącz szukanie wg. hash'a</string>
+    <string id="30126">- Itasa nazwa urzytkownika</string>
+    <string id="30127">- Itasa hasło</string>
 
   <!-- Languages  -->    
        
