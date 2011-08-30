@@ -1,5 +1,6 @@
 2.5.9
 - fixed: podnapisi download
+- added: Napisy24.pl, thx mrto
 
 2.5.8
 - fixed: crash when auto searching next available service. thx schpitz
