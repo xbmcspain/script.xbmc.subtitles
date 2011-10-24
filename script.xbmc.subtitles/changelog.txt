@@ -1,3 +1,6 @@
+2.5.13
+- fixed: Turkish translation, thx queeup
+
 2.5.12
 - fixed: Napisy24pl, thx mrto
 
