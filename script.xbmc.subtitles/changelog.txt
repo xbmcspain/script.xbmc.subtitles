@@ -1,3 +1,6 @@
+2.5.14
+- fixed searching for some tvshows in Titulky.com service, thx Libor
+
 2.5.13
 - fixed: Turkish translation, thx queeup
 
