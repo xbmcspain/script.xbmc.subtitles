@@ -10,7 +10,7 @@
 # Created by: Ori Varon
 #===============================================================================
 import os, re, xbmc, xbmcgui, string, time, urllib2
-from utilities import twotofull, log
+from utilities import twotofull, toOpenSubtitles_two, log
 
 BASE_URL = "http://www.subscenter.org"
 debug_pretext = ""
