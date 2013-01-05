@@ -45,8 +45,8 @@ def getallsubs(searchstring, languageshort, languagelong, file_original_path, su
             id = matches.group(4)
             no_files = matches.group(3)
             server = matches.group(5)
-            downloads = int(matches.group(2)) / 1000
-            if (downloads > 10):
+                downloads = int(matches.group(2).replace(",", "")) / 1000
+                if (downloads > 10):
                 downloads=10
             filename = string.strip(matches.group(1))
             #Remove new lines on the commentaries
